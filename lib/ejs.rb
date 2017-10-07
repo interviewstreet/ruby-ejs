@@ -96,6 +96,6 @@ module EJS
   end
 
   self.evaluation_pattern = /<%([\s\S]+?)%>/
-  self.interpolation_pattern = /<%=([\s\S]+?)%>/
-  self.escape_pattern = /<%-([\s\S]+?)%>/
+  self.interpolation_pattern = /<%-([\s\S]+?)%>/
+  self.escape_pattern = /<%=([\s\S]+?)%>/
 end
